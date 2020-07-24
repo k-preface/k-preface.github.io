@@ -141,9 +141,14 @@ form{
 }
 
 .menu-picture{
-	height: 400px;
+	max-height: 400px;
     width: auto;
     margin-right: auto;
     margin-left: auto;
 }
 
+@media(max-width: 576px){
+	.menu-picture{
+		width: 100%;
+	}
+}
